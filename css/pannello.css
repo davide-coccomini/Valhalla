@@ -1,0 +1,345 @@
+body
+{
+	background:url(../img/bgpannello.jpg) no-repeat;
+	background-size: 100% 100%;
+	overflow-x: hidden;
+	cursor:url("../img/cursor.png"), auto;
+}
+a:hover{cursor:url("../img/cursor2.png"), auto;}
+
+
+#wrapper
+{
+	margin-left:auto;
+    margin-right:auto;
+    width:900px;
+
+}
+
+.modal,#commenticontent {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#messagecontent 
+{
+	position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+/* Modal Content/Box */
+.modal-content,#commentiwrapper,#messagebox,#messageboxchest{
+    background:url(../img/bgtesto.png);
+    margin: 15% auto; 
+    padding: 20px;
+    border: 3px solid black;
+	border-radius:10px;
+    width: 20%; 
+	height:25%;
+    background-size:100% 100%;
+}
+#messageboxchest
+{
+	height:43%;
+}
+#messageimg
+{
+	width:50%;
+	height:60%;
+	margin-left:25%;
+}
+.modal-content p,#messagebox p,#messageboxchest p{
+	font-size:20px;
+	text-align:center;
+    color:white;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#contenitoreindex
+{
+	font:arial;
+	height:1000px;
+	width:900px;
+    text-align:center;
+	color:white;
+	font-family: arial;
+}
+#contenitoreindex a
+{
+	text-decoration:none;
+	color:white;
+}
+#logo
+{
+	margin:auto;
+	height:25%;
+}
+#descrizione
+{
+	height:65%;
+	width:68%;
+	background:url(../img/bgpannellointer.jpg) no-repeat;
+	background-size:100% 100%;
+	float:left;
+	box-shadow:2px 2px 2px 2px rgba(183, 173, 173, 0.56);
+	border: 1px solid #005BA0;
+	overflow:auto;
+}
+.intestazione
+{
+	width:100%;
+	font-size:110%;
+	line-height:10px;
+	text-align:center;
+	margin-top:5%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background:#005BA0;
+}
+.menuContent
+{
+	float:left;
+	width:100%;
+	margin-top
+}
+#menuleft
+{
+	height:65%;
+	width:30%;
+    background:url(../img/bgpannellointer.jpg) no-repeat;
+	background-size:100% 100%;
+	float:left;
+	box-shadow:2px 2px 2px 2px rgba(183, 173, 173, 0.56);
+	border: 1px solid #005BA0;
+}
+#menuleft ul
+ {
+	padding:0;
+    height: 170px;
+    width:100px;
+	margin-top:10px;
+	float:left;
+	list-style:none;
+}
+#menuleft li {
+	margin: 0;
+	padding: 0;
+	height:30px;
+	width:150px;
+	background:url(../img/pannellobottone1.png);
+	background-size:100% 100%;
+	font-size:70%;
+	line-height:9px;
+	margin-left:60%;
+	margin-top:5%;
+	padding-bottom:2%;
+	
+}
+#menuleft a 
+{ 
+	color:white;
+	font-size:10pt;
+	padding-top:10px; 
+	padding-bottom:10px; 
+	display:block;
+}
+#menuleft a:hover 
+{
+	color:white;
+}
+#menuleft li:hover
+{
+	-webkit-filter: brightness(130%);
+	background-size:100% 100%;
+	
+}
+
+#riepilogostatus
+{
+	margin-top:5%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#buttonuser
+{
+	margin-left:-90%;
+}
+#riepilogousercontent
+{
+	margin-left:23%;
+	height:100%;
+	overflow:auto;
+	
+}
+#riepilogoinfo table
+{
+	border:6px outset #005BA0;
+	margin:20% auto;
+	
+}
+#riepilogoinfo th
+{
+	border-bottom:0;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#riepilogoinfo td
+{
+	border-top:0;
+	text-align:center;
+	text-shadow:2px 2px white;
+	
+}
+
+#textarea
+{
+	width:80%;
+	height:30%;
+	overflow: hidden; 
+	color:black;
+	resize: none;
+}
+
+.buttonstyle
+{
+	margin-top:5%;
+	background:url(../img/pannellobottone1.png);
+	background-size:100% 100%;
+	border:0;
+	color:white;
+	height:70px;
+	width:250px;
+	font-size:18px;
+}
+.buttonstyle:hover
+{
+	-webkit-filter: brightness(130%);
+}
+#manutenzionecontent
+{
+	margin-top:10%;
+}
+#manutenzionecontent legend
+{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size:35px;
+	margin:auto;
+}
+#logomanutenzione
+{
+	background:url(../img/logomanutenzione.png);
+	background-size:100% 100%;
+	width:450px;
+	height:340px;
+	margin:auto;
+}
+#bodymanutenzione
+{
+	background:url(../img/sfondomanutenzione.jpg);
+	background-size:100% 100%;
+}
+#motivazioneManutenzione
+{
+	width:30%;
+	height:30%;
+	color:black;
+	resize: none;
+	margin-left:35%;
+	background:url(../img/bgstatistiche.jpg);
+	background-size:100% 100%;
+	color:white;
+	border:2px solid black;
+	border-radius:5%;
+}
+#formcerca
+{
+	margin-top:5%;
+}
+#textcerca
+{
+	height:50px;
+	width:230px;
+}
+#riepilogouserstat
+{
+	width:100%;
+}
+#stattitle
+{
+	float:left;
+	width:36%;
+	
+}
+#statval
+{
+	width:36%;
+	float:left;
+}
+.textboxval
+{
+	border:1px solid black;
+	height:21.5px;
+	padding:0;
+}
+#rankselect
+{
+	height:40px;
+	width:140px;
+	margin-top:3%;
+}
+#buttonstaff
+{
+	margin-top:5%;
+}
+#resettabilicontent
+{
+	margin-top:18%;
+}
+#logcontent
+{
+	overflow:auto;
+    height:98%;
+    padding:1%;
+    width:98%;
+}
+#logcontent table, 
+{
+	color: white;
+    border: 1px solid black;
+}
+#logcontent th,#logcontent td
+{
+	color:white;
+    min-height:20px;
+}
+#logcontent th
+{
+	background:#0a325d;
+}
+#logcontent table
+{
+	width:100%;
+}

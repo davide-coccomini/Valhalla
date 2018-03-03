@@ -1,0 +1,2212 @@
+/*Generale*/
+
+body{
+	background:url(../img/sfondo.jpg) no-repeat;
+	background-size: 100% 100%;
+	overflow-x: hidden;
+	cursor:url("../img/cursor.png"), auto;
+}
+a:hover{cursor:url("../img/cursor2.png"), auto;}
+
+input[type="submit"]:hover,input[type="button"]:hover
+{
+	background:url(../img/bottone2.png);
+	background-size:100% 100%;	
+	cursor:url("../img/cursor2.png"), auto;
+}
+::-webkit-scrollbar {
+    width: 15px;
+	height:100%;
+	border:2px solid black;
+}
+::-webkit-scrollbar-track {
+   background-color: black;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px ;
+} 
+::-webkit-scrollbar-thumb {
+   background-color: #6f6f6c;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px ;
+}
+::-webkit-scrollbar-corner {
+    background-color: black;
+	 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px ;
+} 
+
+#wrapper
+{
+	margin-left:auto;
+    margin-right:auto;
+    width:900px;
+
+}
+#contenitoreindex
+{
+	font:arial;
+	height:1000px;
+	width:900px;
+    text-align:center;
+	color:white;
+	font-family: arial;
+	text-shadow: 2px 2px 8px black;
+	
+}
+#contenitoreindex a
+{
+	text-decoration:none;
+}
+#logo
+{
+	margin:auto;
+	height:18%;
+}
+#logocenter
+{
+	height:100%;
+	width:30%;
+	margin:auto;
+}   
+
+#logoleft
+{
+	height:102%;
+	width:25%;
+	margin:auto;
+	float:left;
+    
+}   
+#logoright
+{
+	height:100%;
+	width:30%;
+	margin:auto;
+	float:right;
+}   
+#corvo
+{
+	position:absolute;
+	height:120px;
+	width:15%;
+	margin-top:55px;
+	margin-left:71%;
+	float:right;
+}
+
+.torcia
+{
+	position:absolute;
+	height:150px;
+	width:90px;
+	margin-top:130px;
+}
+#torcialeft{
+	
+	margin-left:-90px;
+}
+#torciaright
+{
+	margin-left:898px;
+}
+#menutop
+{
+	height:8%;
+	width:99.3%;
+	background:url(../img/menuleft2.jpg) no-repeat;
+	background-size:100%;
+	box-shadow:2px 2px 2px 2px black;
+	border: 1px solid black;
+	font-size:70%;
+}
+#menutopveggente
+{
+	float:left;
+	height:80%;
+	width:8%;
+}
+#sferaveggente
+{
+	height:100%;
+	width:100%;
+	margin-top:8%;
+	margin-left:25%;
+}
+
+.scudo
+{
+	width:19%;
+	height:68%;
+	float:left;
+	margin-left:5%;
+}
+#scudi
+{
+	margin-top:1%;
+	width:30%;
+	height:90%;
+	float:right;
+	margin-right:3%;
+	opacity:0.8;
+}
+#scudi:hover
+{
+	opacity:1;
+}
+#info
+{
+	height:100%;
+	width:17%;
+	float:right;
+	border-left:5px solid black;
+	box-shadow:inset 2px 2px 2px 2px black;
+}
+#oro
+{
+	height:33%;
+	width:20%;
+	float:left;
+	text-align:center;
+	margin-left:10%;
+	margin-top:-3%;
+	
+}
+#smeraldo
+{
+	height:33%;
+	width:18%;
+	float:right;
+	margin-right:15%;
+	text-align:center;
+}
+#imgsmeraldo
+{
+	margin-top:55%;
+	margin-bottom:20%;
+	height:100%;
+	width:100%;
+}
+
+#imgoro
+{
+	height:120%;
+	width:120%;
+	margin-top:55%;
+	margin-bottom:20%;
+}
+#missioni
+{
+	box-shadow:inset 2px 2px 2px 2px black;
+	height:100%;
+	width:17%;
+	float:right;
+	border-left:5px solid black;
+}
+#completate
+{
+	height:30%;
+	width:16%;
+	float:left;
+	text-align:center;
+	margin-left:10%;
+	margin-top:10%;
+}
+#reputazione
+{
+	height:30%;
+	width:16%;
+	float:right;
+	text-align:center;
+	margin-left:10%;
+	margin-top:10%;
+	margin-bottom:20%;
+	margin-right:15%;
+}
+#imgcompletate
+{
+	margin-top:10%;
+	margin-bottom:20%;
+	height:100%;
+	width:100%;
+}
+#imgreputazione
+{
+	margin-top:10%;
+	margin-bottom:20%;
+	height:100%;
+	width:100%;
+}
+#arena
+{
+	box-shadow:inset 2px 2px 2px 2px black;
+	height:100%;
+	width:17%;
+	float:right;
+	border-left:5px solid black;
+}
+#vittorie
+{
+	height:30%;
+	width:16%;
+	float:left;
+	text-align:center;
+	margin-left:10%;
+	margin-top:10%;
+}
+#sconfitte
+{
+	height:30%;
+	width:16%;
+	float:right;
+	text-align:center;
+	margin-left:10%;
+	margin-top:10%;
+	margin-bottom:20%;
+	margin-right:8%;
+}
+#imgvittorie
+{
+	margin-top:10%;
+	margin-bottom:20%;
+	height:100%;
+	width:100%;
+	
+}
+#imgsconfitte
+{
+	margin-top:10%;
+	margin-bottom:20%;
+	height:100%;
+	width:100%;
+}
+#descrizione
+{
+	height:65%;
+	width:69%;
+	background:url(../img/sfondocontent.jpg) no-repeat;
+	background-size:100% 100%;
+	float:left;
+	box-shadow:2px 2px 2px 2px black;
+	border: 1px solid black;
+}
+#menuleft
+{
+	height:65%;
+	width:30%;
+    background:url(../img/menuleft2.jpg) no-repeat;
+	background-size:100% 100%;
+	float:left;
+	box-shadow:2px 2px 2px 2px black;
+	border: 1px solid black;
+}
+#menuleft ul
+ {
+	padding:0;
+    height: 500px;
+    width:100px;
+	margin-top:10px;
+	float:left;
+	list-style:none;
+
+}
+#menuleft li {
+	margin: 0;
+	padding: 0;
+	width:150px;
+	background:url(../img/bottone1.png);
+	background-size:100% 100%;
+	font-size:70%;
+	margin-left:45%;
+	margin-top:5%;
+	padding-bottom:2%;
+
+}
+#menuleft a { 
+	color:white;
+	font-size:10pt;
+	padding-top:10px; 
+	padding-bottom:10px; 
+	display:block;
+}
+#menuleft a:hover 
+{
+	color:#FAF0E6;
+}
+#menuleft li:hover
+{
+	background:url(../img/bottone2.png);
+	background-size:100% 100%;
+}
+#notifichemess
+{
+	background:url(../img/nuovimess.png);
+	background-size:100% 100%;
+	width:22px;
+	height:22px;
+	position:absolute;
+	margin-left:180px;
+	margin-top:55px;
+	font-size:80%;
+	text-align:center;
+	line-height:23px;
+	
+}
+#nave
+{
+	background:url(../img/nave2.png);
+	background-size:100% 100%;
+	height:25%;
+	width: 27%;
+	position:relative;
+	margin-top:-25%;
+	margin-left:-5%;
+}
+.textbox
+{
+	margin-top:20%;
+	width:40%;
+	height:5%;
+	border:2px solid black;
+	background:url(../img/bgstatistiche.jpg);
+	background-size:100% 100%;
+	box-shadow:inset 1px 1px 1px 1px black;
+	text-align:left;
+	font-size:20px;
+	color:white;
+	padding-left:0.5%;
+}
+#footer
+{
+	height:4%;
+	width:873px;
+	background:url(../img/menuleft2.jpg) no-repeat;
+	background-size:100%;
+	box-shadow:2px 2px 2px 2px black;
+	border: 1px solid black;
+	margin-top:72.5%;
+	text-align:center;
+	font-family: arial;
+	font-weight:bold;
+	padding:10px;
+	line-height:280%;
+}
+
+
+/*Riepilogo & Inventario*/
+
+
+#riepilogo
+{
+	padding:3%;
+	height:94.5%;
+	background:url(../img/bgsangue.gif);
+	background-size: 100% 100%;
+}
+
+#riepilogotop
+{
+	width:95%;
+	height:80%;
+	margin-left:11%;
+	
+}
+
+#riepilogotopleft
+{
+	width:45%;
+	float:left;
+}
+#riepilogotopright{
+	width:65%;
+	float:left;
+	margin-left:-24%;
+}
+
+#clanpg
+{
+	margin-left:85%;
+	width:35%;
+	height:20%;
+	
+}
+#scudopg
+{
+	width:100%;
+	height:100%;
+	opacity:0.7;
+}
+
+#scudopg:hover
+{
+	opacity:0.9;
+}
+#nomepg
+{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	height:5%;
+	width: 60%;
+	font-size:100%;
+	background:url(../img/bgnomepg.png);
+	background-size:100% 100%;
+	padding:1%;
+	position:relative;
+	float:left;
+	margin-left:9%;
+	background:url(../img/bgtesto.png);
+	border:2px solid black;
+	font-weight:bold;
+	font-family:arial;
+	line-height:26px;
+	box-shadow: inset 1px 1px 1px 1px black;
+}
+
+
+#imgprof
+{
+	height:100%;
+	width: 100%;
+}
+#profilo
+{
+	height:55%;
+	width: 60.8%;
+	margin-top:10.5%;
+	margin-left:9%;
+	margin-bottom:7%;
+	border:3px solid black;
+	border-bottom:6px solid black;
+}
+
+
+#statriepilogo
+{
+	float:left;
+	width:70%;
+}
+
+#statriepilogo ul
+{
+	float:right;
+	width:70%;
+}
+
+#statriepilogo,#statval
+{
+	margin-top:50%;
+}
+
+
+#statval ul
+{
+	margin-left:-7.5%;
+	margin-top:-14.3%;
+	float:left;
+}
+#statval li,#statvalriepilogo li
+{
+	width:100%;
+	color:#FFD700;
+	width:100px;
+}
+
+#statgiocatore
+{
+	margin-left:20%;
+
+}
+#statgiocatore li
+{
+	width:200px;
+}
+#statvalgiocatore li
+{
+	width:100px;
+	color:#FFD700;
+	font-size:100%;
+	text-align:center;
+}
+.statistiche ul
+ {
+	padding:0;
+	float:left;
+	list-style:none;
+	margin-top:-20.2%;
+}
+.statistiche li {
+	box-shadow:inset 1px 1px 1px 1px black;
+	margin: 0;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	height:25.5px;
+	width:145px;
+	text-align:left;
+	background-size:100% 100%;
+	font-size:90%;
+	background:url(../img/bgstatistiche.jpg) no-repeat;
+	background-size: 100% 100%;
+	border:1px solid black;
+	list-style:none; 
+	margin-left:-6.8%;
+	padding-left:5%;
+	line-height:26px;
+}
+
+
+
+#inventario
+{
+	width:350px;
+	height:215px;
+	margin-top:2%;
+	background:url(../img/inventario.jpg);
+	float:right;
+	border: 2px solid black;
+	border-radius: 2%;
+}
+
+#pulsantetogli,#pulsanteindossa
+{
+	width:25%;
+	height:8%;
+	float:right;
+	margin-top:10%;
+	margin-right:2%;
+	padding:1%;
+	font-size:20px;
+	list-style:none;
+	color:white;
+}
+#inventariobox
+{
+	overflow:auto;
+	height:100%;
+	width:100%;
+}
+
+#inventarioitem
+{
+	border-bottom:5px solid black;	
+}
+
+#indossato
+{
+	color:red;
+	float:right;
+}
+/*Messaggi*/
+
+
+#menumess ul
+ {
+	padding:0;
+    height: 50%;
+    width:1%;
+	float:left;
+	list-style:none;
+}
+#menumess li {
+	
+	height:18%;
+	width:4%;
+	word-break:break-all;
+	background:url(../img/bgtesto.png);
+	border-right:3px inset #6f6f6c;
+	border-top:3px inset #6f6f6c;
+	border-bottom:3px inset #6f6f6c;
+	margin-top:2%;
+	margin-left:100%;
+	font-size:70%;
+	float:left;
+	font-size:60%;
+	list-style:none;
+	padding:1%;
+	text-align:center;
+}
+#menumess li:hover{
+	background:#414141;
+
+}
+#menumess a {
+	color:white;
+	padding:17px; 
+	display:block;
+}
+#menumess a:hover 
+{
+	color:#FAF0E6;
+}
+#messaggibox
+{
+	width:100%;
+	height:100%;
+	background:url(../img/sfondocontent.jpg);
+	background-size: 100% 100%;
+	overflow: hidden;
+	position:relative;
+	top:-68.5%;
+	border:1px solid black;
+	
+}
+#titolomessaggi,#titolomessaggiinviati
+{	
+	left:5%;
+	position:relative;
+	width:90%;
+	height:20%;
+}
+#titolomessaggi{
+	background:url(../img/messaggiinentrata.png);
+	background-size: 100% 100%;
+}
+#titolomessaggiinviati{
+	background:url(../img/messaggiinviati.png);
+	background-size: 100% 100%;
+}
+
+#elimina
+{
+	width:10%;
+	height:10%;
+	margin-top:2%;
+}
+
+#messricevuticont,#messinviaticont
+{
+	position:relative;
+	height:100%;
+	width:100%;
+	overflow:auto;
+	overflow-x:hidden;
+	
+}
+#messricevuticont a,#messinviaticont a
+{
+	color:white;
+}
+#mittentemessricevuti,#mittentemessinviati
+{
+	color:#c2c2c2;
+	font-size:30px;
+}
+
+
+#pergamena
+{
+	background:url(../img/pergamena.png);
+	background-size:100% 100%;
+	width:15%;
+	height:15%;
+	margin-top:20%;
+	margin-left:5%;
+	color:red;
+	font-weight:bold;
+
+}
+
+
+#formnewmess
+{
+	position:relative;
+	top:-70%;
+}
+
+	
+.sfondomess
+{
+	background:url(../img/sfondocontent.jpg);
+	background-size: 100% 100%;
+	width:100%;
+	height:100%;
+	top:-12.2%;
+	position:relative;
+}
+#newmessbox
+{
+	background:url(../img/messaggio.png);
+	background-size:100% 100%;
+	height:60%;
+	width:50%;
+	padding:15%;
+	margin-top: 13%;
+	margin-left:10%;
+	text-align:left;
+	color:black;
+	text-shadow:none;
+}
+
+#messerror
+{
+	width:15%;
+	height:2%;
+	padding:1%;
+	margin-top:5%;
+	margin-left:13%;
+	text-align:center;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	position:absolute;
+	font-weight:bold;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+}
+#mittente
+{
+	color:#513F2C;
+	text-shadow:none;
+	margin-left:1%;
+}
+#messricevuti,#messinviati
+{
+	width:33%;
+	height:30%;
+	float:left;
+	margin-top:5%;
+}
+#messricevutibox
+{
+	width:100%;
+	height:100%;
+	
+	
+}
+#pergamenamessricevuti,#pergamenamessinviati
+{
+	width:32%;
+	height: 32%;
+}
+#pergamenamessricevuti:hover,#pergamenamessinviati:hover
+{
+	width:35%;
+	height:35%;
+}
+.legendamess
+{
+	font-size: 20px;
+	margin-top:5%;
+	color:#513F2C;
+	font-weight: bold;
+	text-shadow:none;
+	font-family:Arial;
+}
+.textboxmess
+{
+	margin-top:5%;
+	margin-left:5%;
+	width:45%;
+	height:5%;
+	border:2px solid black;
+	background:#dbcba5;
+	text-align:left;
+	font-size:15px;
+	color:black;
+}
+
+#textareamess
+{
+	width:80%;
+	height:30%;
+	overflow: hidden; 
+	color:black;
+	resize: none;
+}
+
+
+#pulsantemess
+{
+	margin-top:3%;
+	width:30%;
+	height:10%;
+	background:url(../img/bottone3.png) no-repeat;
+	background-size:100% 100%;
+	border:none;
+	font-size:20px;
+	text-shadow: 1px 1px 1px black;
+	font-family:arial;
+	margin-left:35%;
+}
+#pulsantemess:hover
+{
+	background:url(../img/bottone4.png) no-repeat;
+	background-size:100% 100%;
+}
+
+#rispondi
+{
+	list-style:none;
+	margin-top:20%;
+	width:50%;
+	height:7%;
+	padding:4%;
+	text-align:center;
+	background:url(../img/bottone3.png) no-repeat;
+	background-size:100% 100%;
+	border:none;
+	font-size:20px;
+	text-shadow: 1px 1px 1px black;
+	font-family:arial;
+	margin-left:20%;
+	color:black;
+}
+#rispondi:hover
+{
+	background:url(../img/bottone4.png) no-repeat;
+	background-size:100% 100%;
+}
+
+
+/*Sfida*/
+
+
+#sfidaerror
+{
+	width:70%;
+	height:2%;
+	padding:1%;
+	margin-top:0;
+	margin-left:15%;
+	text-align:center;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	font-weight:bold;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+}
+
+#sfidabox
+{
+	background:url(../img/sfondosfida.jpg);
+	background-size:100% 100%;
+	width: 100%;
+	height:100%;
+}
+#testosfida
+{
+	background:url(../img/bgtesto.png) no-repeat;
+	background-size:100% 100%;
+	border:3px solid black;
+	width:70%;
+	height:25%;
+	padding:2%;
+	margin:auto;
+	color:white;
+	border-radius: 10% 10% 10% 10%;
+	text-shadow: 2px 2px 8px black;
+	font-size:17px;
+	margin-top:35%;
+	box-shadow:2px 2px 2px 2px black;
+}
+
+#pulsantesfida
+{
+	height:30%;
+}
+
+#textsfida
+{
+	margin-top:10%;
+	height:15%;
+	color:white;
+}
+
+#resocontobox
+{
+	height:100%;
+	width:100%;
+	background:url(../img/sfondosfida.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#vincitorebox
+{
+	width:100%;
+	height:10%;
+}
+#vincitore
+{
+	width:90%;
+	height:25%;
+	padding:1%;
+	top:2%;
+	left:4%;
+	position:relative;
+	color:#BFAE54;
+	background:#007F0E;
+	border:4px outset black;
+	font-weight:bold;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+}
+#nomisfidanti,#nomirivali
+{
+	width:100%;
+	height:4%;
+	color:white;
+}
+#nomesfidante,#nomegiocatore
+{
+	width:23%;
+	height:50%;
+	padding:1%;
+	position:relative;
+	float:left;
+	margin-left:7%;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	font-weight:bold;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+}
+#nomesfidato,#nomenemico
+{
+	
+	width:23%;
+	height:50%;
+	padding:1%;
+	position:relative;
+	float:left;
+	margin-left:35%;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	font-weight:bold;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+}
+#sfidante,#giocatore
+{
+	height:37.4%;
+	width: 25%;
+	margin-left:7%;
+	float:left;
+	border:4px solid black;
+	margin-bottom:3%;
+}
+#sfidato,#nemico
+{
+	
+	height:37.4%;
+	width: 25%;
+	margin-left:35%;
+	float:left;
+	border:4px solid black;
+	margin-bottom:3%;
+
+}
+#statistichesfidato,#statistichenemico
+{
+	margin-left:60%;
+}
+#statistichesfidante,#statistichegiocatore
+{
+	margin-left:3%;
+	margin-top:-5%;
+}
+
+#statistichesfidante ul,#statistichesfidato ul,#statvalresoconto ul,#statistichegiocatore ul,#statistichenemico ul
+{
+	padding:0;
+	float:left;
+	list-style:none;
+}
+#statistichesfidante li, #statistichesfidato li,#statvalresoconto li,#statistichegiocatore li,#statistichenemico li
+{
+	box-shadow:inset 1px 1px 1px 1px black;
+	margin: 0;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	height:18px;
+	width:120px;
+	text-align:left;
+	background-size:100% 100%;
+	font-size:90%;
+	background:url(../img/bgstatistiche.jpg) no-repeat;
+	background-size: 100% 100%;
+	border:1px solid black;
+	list-style:none; 
+}
+#ricompense,#epilogomissione
+{
+	width:80%;
+	height:6%;
+	padding:1%;
+	position:relative;
+	float:left;
+	margin-top:-2%;
+	margin-left:8%;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	font-weight:bold;
+	color:white;
+	font-size:70%;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+}
+#inforicompense,#infoepilogo
+{
+	text-decoration: underline;
+	color:red;
+}
+
+
+/*Mercante*/
+
+
+#sfondomercato
+{
+	background:url(../img/sfondocontent.jpg) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+#imgmercante
+{
+	width:40%;
+	height:80%;
+	float:left;
+	border: 3px solid black;
+	margin-top: 5%;
+	margin-left: 3%;
+}
+#testomercante,#testocustode
+{
+	height:60%;
+	width:46%;
+	padding:2%;
+	border:3px solid black;
+	float:left;
+	margin-left: 3%;
+	margin-top:10%;
+	background:url(../img/bgtesto.png);
+	background-size: 100% 100%;
+	color:white;
+}
+#topmercante,#toptempio
+{
+	width: 100%;
+	height:50%;
+}
+#descrizioneitem ul,#statvalmercato ul,#statvalinventario ul
+{
+	margin-top:2%;
+}
+#descrizioneitem li
+{
+	width:240px;
+	height:20px;
+	margin-left:1%;
+}
+#statvalmercato li,#statvalinventario li
+{
+	width:100%;
+	height:20px;
+	color:#FFD700;
+	font-size:100%;
+}
+#sellitembox,#inventarioitem
+{
+
+	height:50%;
+	width:100%;
+	overflow:auto;
+
+}
+
+#item
+{
+	background:url(../img/bgtesto.png);
+	background-size: 100% 100%;
+	width:98%;
+	height:80%;
+	border:3px solid black;
+	margin:2% auto;
+}
+#itembar,#inventarioitembar
+{
+	width:96%;
+	height:5%;
+	background:black;
+	padding:2%;
+}
+#nomeitem,#inventarionomeitem
+{
+	float:left;
+	width:30%;
+	text-align:left;
+}
+#venditore
+{
+	width:28%;
+	float:left;
+	font-size:15px;
+}
+#oroitem
+{
+	float:right;
+	width:20%;
+	text-align:right;
+}
+#smeraldiitem
+{
+	float:right;
+	width:10%;
+	text-align:right;
+}
+#imgsmeraldiitem
+{
+	width:30%;
+	height:110%;
+	margin-left:3%;
+}
+#imgmoneteitem
+{
+	width:20%;
+	height:180%;
+	margin-top:-3%;
+}
+
+#iconaitem
+{
+	margin-top:10%;
+	margin-right:25%;
+	width:11.5%;
+	height:27%;
+	float:right;
+	background:url(../img/inventario.jpg);
+	border:15px solid black;
+}
+#imgiconaitem
+{
+	width:100%;
+	height:100%;
+	
+}
+#compraitem
+{
+	width:35%;
+	height:8%;
+	margin-top:-6%;
+	float:right;
+	margin-left:30%;
+	padding:1%;
+	font-size:20px;
+	list-style:none;
+	color:white;
+}
+#compraitem a
+{	
+	color:white;
+}
+#compraitem:hover,#pulsanteindossa:hover
+{
+	background:url(../img/bottone2.png);
+	background-size:100% 100%;	
+}
+
+
+#pulsanteinventario
+{
+	width:55%;
+	height:8%;
+	line-height:250%;
+	margin:auto;
+	padding:1%;
+	font-size:20px;
+	list-style:none;
+	color:white;
+}
+
+#pulsanteinventario:hover
+{
+	background:url(../img/bottone2.png);
+	background-size:100% 100%;	
+}
+
+.textboxvendita
+{
+	height:10%;
+	margin-right:2%;
+	font-size:100%;
+}
+#pulsantevendi
+{
+	height:20%;
+	margin-left:2%;
+	font-size:100%;
+}
+#useritemvendita
+{
+	height:100%;
+	overflow:auto;
+}
+#useritemvenditabox
+{
+	height:50%;
+	width:100%;
+	overflow:auto;
+}
+/*Missione*/
+
+
+#sfondomissione
+{
+	background:url(../img/sfondomissione.png);
+	background-size:100% 100%;
+	height:100%;
+}
+#misserror{
+	width:25%;
+	height:2%;
+	padding:1%;
+	margin-left:10%;
+	margin-top:32.6%;
+	text-align:center;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	font-weight:bold;
+	position:absolute;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+	color:white;
+}
+#vichingomissione
+{
+	background:url(../img/vichingo.png);
+	width:80%;
+	height:70%;
+	background-size:100% 100%;
+}
+#testomissione
+{
+	background:url(../img/bgtesto.png);
+	border:3px solid black;
+	width:70%;
+	height:25%;
+	padding:2%;
+	margin:auto;
+	color:white;
+	border-radius: 10% 10% 10% 10%;
+	text-shadow: 2px 2px 8px black;
+	font-size:17px;
+}
+#missione
+{
+	font-size:20px;
+}
+#pulsantemappa,#pulsantevendita
+{
+	background:url(../img/bottone1.png) no-repeat;
+	background-size:100% 100%;
+	height:10%;
+	padding:5%;
+	border:none;
+	margin-left:25%;
+	font-size:100%;
+	text-shadow: 1px 1px 1px black;
+	font-family:arial;
+	color:white;
+	list-style:none;
+}
+#pulsantemappa
+{
+	margin-top:-3%;
+}
+#missione a,#pulsantevendita a
+{
+	color:white;
+}
+
+#pulsantemappa:hover,#pulsantevendita:hover
+{
+	background:url(../img/bottone2.png);
+	background-size:100% 100%;	
+}
+
+#mappabox
+{
+	width:100%;
+	height:100%;
+	background:url(../img/sfondomappa.jpg);
+	background-size:100% 100%;
+}
+#mappa
+{
+	position:relative;
+	top:35%;
+}
+
+#imgmappa
+{
+	width:100%;
+	height:85%;
+}
+
+#contenitoremappa
+{
+	color:white;
+	border-radius: 10% 10% 10% 10%;
+	text-shadow: 2px 2px 8px black;
+	font-size:17px;
+}
+#testomappa
+{
+	background:url(../img/bgtesto.png);
+	border:3px solid black;
+	width:99.4%;
+	height:15%;
+	margin:auto;
+	color:white;
+	text-shadow: 2px 2px 8px black;
+	font-size:17px;
+}
+
+#maperror{
+	width:25%;
+	height:2%;
+	padding:1%;
+	margin-left:10%;
+	text-align:center;
+	background:url(../img/bgtesto.png);
+	border:1px outset black;
+	margin-top:0.5%;
+	font-weight:bold;
+	position:absolute;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+	color:white;
+}
+#sfondoattesa1
+{
+	background:url(../img/sfondoattesa1.jpg);
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+#sfondoattesa2
+{
+	background:url(../img/sfondoattesa2.jpg);
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+#sfondoattesa3
+{
+	background:url(../img/sfondoattesa3.jpg);
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+#sfondoattesa4
+{
+	background:url(../img/sfondoattesa4.jpg);
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}#sfondoattesa5
+{
+	background:url(../img/sfondoattesa5.jpg);
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+#sfondoattesa6
+{
+	background:url(../img/sfondoattesa6.jpg);
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+#sfondoattesa7
+{
+	background:url(../img/sfondoattesa7.jpg);
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+#missattesatesto
+{
+	padding:5%;
+	background:url(../img/bgtesto.png);
+	border:3px solid black;
+	width:50%;
+	height:10%;
+	position:relative;
+	top:35%;
+	left:20%;
+	color:white;
+	border-radius: 10% 10% 10% 10%;
+	text-shadow: 2px 2px 8px black;
+	font-size:17px;
+}
+#pulsanteannullamiss
+{
+	margin-top:40%;
+}
+
+
+/*Classifica*/
+
+
+#classificabox
+{
+	width:100%;
+	height:100%;
+	background:url(../img/bgclassifica.png) no-repeat;
+	background-size: 100% 100%;
+	overflow:auto;
+	overflow-x:hidden;
+}
+#menuclassifica 
+{
+	width:100%;
+	height:10%;
+}
+
+
+#menuclassifica ul
+ {
+	padding:0;
+    height: 500px;
+    width:100px;
+	margin-top:10px;
+	float:left;
+	list-style:none;
+
+}
+#menuclassifica li {
+	padding:3%;
+	height:20%;
+	width:28%;
+	background:url(../img/bottone1.png);
+	background-size:100% 100%;
+	font-size:100%;
+	margin-left:10%;
+	margin-top:1%;
+	text-align:center;
+	float:left;
+	list-style:none;
+}
+
+
+#menuclassifica a {
+	color:white;
+	padding:17px; 
+}
+
+#menuclassifica a:hover 
+{
+	color:#FAF0E6;
+}
+
+#menuclassifica li:hover
+{
+	background:url(../img/bottone2.png);
+	background-size:100% 100%;
+}
+#classifica
+{
+	width:100%;
+	border:2px solid black;
+	overflow:auto;
+	color:white;
+}
+#classifica a
+{
+	color:white;
+}
+#scudoicon
+{
+	height:20px;
+	width:45%;
+}
+#scudoiconclan
+{
+	height:5%;
+	width:20%;
+}
+th
+{
+	background:url(../img/bgclassifica.png) no-repeat;
+	font-weight:bold;
+	text-shadow: 1px 1px 1px black;
+	border-left:1px solid black;
+}
+
+td
+{
+
+	background:url(../img/bgclassifica.png) no-repeat;
+	text-align:center;
+	border-left:1px solid black;
+	height:5%;
+	width:20%;
+
+}
+td a:hover
+{
+	font-size:107%;
+}
+
+.myclassifica
+{
+	background:url(../img/bgmyclassifica.png) no-repeat;
+	background-size: 100% 100%;
+
+}
+#textcerca
+{
+	height:80%;
+	width:45%;
+	margin-top:1%;
+	margin-left:14%;
+	float:left;
+
+}
+#pulsantecerca
+{
+	float:left;
+	width:30%;
+	height:80%;
+	font-size:100%;
+	margin-top:-2%;
+}
+#cerca
+{
+	height:7%;
+	width:100%;
+	border:3px solid black;
+
+}
+#formcerca
+{
+	height:98%;
+	width:100%;
+	background:url(../img/bgclassifica.png);
+	background-size:100% 100%;
+}
+#imgclassclan
+{
+	width:40%;
+	height:60%;
+	margin-top:5%;
+	margin-left:10%;
+}
+
+
+/*Veggente*/
+
+
+#sfera
+{
+	background:url(../img/sfera.png);
+	background-size:100% 100%;
+	height:40%;
+	width:40%;
+	margin:auto;
+}
+#sfondoveggente
+{	
+	background:url(../img/sfondoveggente.jpg);
+	background-size:100% 100%;
+	height:100%;
+	width:100%;
+}
+#testoveggente
+{
+	padding:5%;
+	background:url(../img/bgtesto.png) no-repeat;
+	background-size:100% 100%;
+	border:3px solid black;
+	width:50%;
+	height:50%;
+	margin-right:30%;
+	position:relative;
+	top:35%;
+	left:15%;
+	color:white;
+	border-radius: 10% 10% 10% 10%;
+	text-shadow: 2px 2px 8px black;
+	font-size:17px;
+}
+#pulsanteveggente
+{
+	margin-top:3%;
+	width:50%;
+	height:20%;
+	background:url(../img/bottone1.png) no-repeat;
+	background-size:100% 100%;
+	border:none;
+	font-size:100%;
+	text-shadow: 2px 2px 2px black;
+	font-family:arial;
+	color:white;
+}
+#pulsanteveggente:hover
+{
+	background:url(../img/bottone2.png);
+	background-size:100% 100%;	
+}
+#sfondofuturo
+{
+	background:url(../img/futuro.jpg);
+	background-size:100% 100%;
+	height:100%;
+	width:100%;
+}
+#testofuturo
+{
+	top:40%;
+	left:-1%;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	position:relative;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/*Allenamento*/
+
+
+#allenatorebox
+{
+		width:100%;
+		height:50%;
+}
+#allenamentobox
+{
+	width:100%;
+	height:100%;
+	background:url(../img/sfondocontent.jpg);
+	background-size: 100% 100%;
+
+}
+
+
+
+#allenatore
+{
+	height:95%;
+	width:40%;
+	float:left;
+	margin-left:5%;
+	margin-top:5%;
+	border:2px solid black;
+}
+#imgallenatore
+{
+	height:100%;
+	width: 100%;	
+}
+#testoallenatore
+{
+	height:26%;
+	width:46%;
+	padding:2%;
+	border:3px solid black;
+	float:left;
+	margin-left: 3%;
+	margin-top:25%;
+	background:url(../img/bgtesto.png);
+	background-size: 100% 100%;
+	color:white;
+}
+#statisticheallenamentobox
+{
+	width:100%;
+	margin-top:5%;
+	margin-left:10%;	
+}
+
+#statisticheallenamento ul,#statvalall ul,#statbutton ul
+{
+	margin-top:8%;
+}
+#statisticheallenamento li
+{
+	width:250px;
+	height:30px;
+	line-height:32px;
+	text-align:center;
+}
+#statvalall ul
+{
+	margin-left:0;
+}
+#statvalall li
+{
+	width:100%;
+	color:#FFD700;
+	font-size:100%;
+	width:110px;
+	height:30px;
+	text-align:center;
+	line-height:32px;
+}
+#statbutton li
+{
+	width:100%;
+	font-size:100%;
+	width:30px;
+	height:30px;
+}
+#allenamentoerror
+{
+	width:25%;
+	height:15%;
+	padding:1%;
+	top:35%;
+	margin-left:60%;
+	text-align:center;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	font-weight:bold;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+	position:relative;
+}
+.smeraldi
+{
+	height:100%;
+	float:right;
+}
+.monete
+{
+	height:100%;
+	float:right;
+}
+
+.costo
+{
+	text-align:left;
+
+}
+#bottonestat
+{
+	background:url(../img/bottonestat.jpg);
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+	margin:auto;
+}
+
+#bottonestat:hover
+{
+	background:url(../img/bottonestat2.jpg);
+	background-size:100% 100%;
+}
+
+
+/*Tempio*/
+
+
+#toptempio
+{
+	margin-top:5%;
+}
+
+#imgcustode{
+	height:100%;
+	float:left;
+	margin-left:3%;
+}
+#texttempio
+{
+	height:15%;
+	margin-top:2%;
+}
+#pulsantetempio
+{
+	height:14%;
+	font-size:100%;
+}
+#bottempio
+{
+	margin-top:10%;
+}
+#esitodonazione
+{
+	background:url(../img/rotolotempio.png);
+	background-size:100% 100%;
+	width:80%;
+	height:30%;
+	margin:auto;
+}
+
+#testoesito
+{
+	height:60%;
+	width:70%;
+	top:30%;
+	left:15%;
+	position:relative;
+	color:black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+
+/*Bacheca clan*/
+
+
+#bachecanuovomess
+{
+	height:30%;
+	width:100%;
+}
+#formbachecanuovomessleft
+{
+	width:45%;
+	float:left;
+}
+#formbachecanuovomessright
+{
+	width:50%;
+	float:right;
+}
+#oggettoformbacheca
+{
+	margin:0;
+	float:left;
+	height:15%;
+	width:70%;
+	margin-left:15%;
+}
+#oggettoformbachecatitle
+{
+	margin-left:15%;
+}
+#contenutoformbachecatitle
+{
+	margin-left:5%;
+}
+#contenutoformbacheca
+{
+	margin-top:1%;
+	float:right;
+	height:70%;
+	width:90%;
+	margin-right:5%;
+	resize: none;
+	
+}
+#pulsantebacheca
+{
+	float:left;
+	height:20%;
+	width:70%;
+	margin-left:15%;
+	margin-top:25%;
+}
+#bachecatop
+{
+	width:100%;
+	height:30%;
+	border-bottom:5px solid black;
+	background:url(../img/sfondoclantop.jpg) no-repeat;
+	background-size: 100% 100%;
+
+}
+#bachecacontent
+{
+	width:100%;
+	height:37%;
+	overflow:auto;
+}
+#bachecamess
+{
+	background:url(../img/bgtesto.png) no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:30%;
+}
+#topbachecamess
+{
+	width:100%;
+	height:22%;
+	background:url(../img/bgstatistiche.jpg);
+	background-size: 100% 100%;
+	color:yellow;
+	padding-top:1%;
+	margin-top:1%;
+}
+#mittentebachecamess,#oggettobachecamess
+{
+	float:left;
+	width:30%;
+}
+#oggettobachecamess
+{
+	margin-left:5%;
+}
+#orariobachecamess
+{
+	float:right;
+	width:30%;
+}
+#contenutobachecamess
+{
+	width:98%;
+	height:50%;
+	text-align:left;
+	padding-left:10px;
+	border:1px solid black;
+	padding-top:1%;
+	overflow:auto;
+}
+
+
+/* MAIN */
+
+
+#bodymain
+{
+	background:url(../img/sfondologin.jpg) no-repeat;
+	background-size:100% 100%;
+}
+#mainlogo
+{
+	background:url(../img/logo2.png);
+	background-size: 100% 100%;
+	width:50%;
+	height:25%;
+	margin-left:25%;
+}
+#pulsanteregistrazione
+{
+	width:38%;
+	height:6%;
+	font-size:30px;
+	list-style:none;
+	margin:auto;
+	padding:1%;
+}
+#loginbox a
+{
+	color:white;
+	text-decoration:none;
+}
+#pulsanteregistrazione:hover,#pulsanteregavanti:hover
+{
+	background:url(../img/bottone2.png);
+	background-size:100% 100%;
+	cursor:url("../img/cursor2.png"), auto;
+}
+#manuale
+{
+	width:3%;
+	height:5%;
+	margin:2% auto;
+}
+#loginerror
+{
+	width:20%;
+	height:2%;
+	padding:1%;
+	margin-top:16%;
+	margin-left:39%;
+	position:absolute;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	font-weight:bold;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+	color:white;
+}
+
+#loginbox
+{
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+.pulsantemain
+{
+	margin-top:3%;
+	width:40%;
+	height:10%;
+	background:url(../img/bottone1.png) no-repeat;
+	background-size:100% 100%;
+	border:none;
+	font-size:30px;
+	text-shadow: 3px 3px 3px black;
+	font-family:arial;
+	color:white;
+}
+.pulsantemain:hover
+{
+	background:url(../img/bottone2.png) no-repeat;
+	background-size:100% 100%;
+}
+#regerror
+{
+	width:25%;
+	height:2%;
+	padding:1%;
+	margin-top:-2%;
+	margin-left:36.5%;
+	text-align:center;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	font-weight:bold;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+	color:white;
+}
+#usernameerror
+{
+	width:20%;
+	height:3%;
+	padding:1%;
+	position:absolute;
+	margin-top:-4%;
+	margin-left:9%;
+	text-align:center;
+	background:url(../img/bgtesto.png);
+	border:4px outset black;
+	font-weight:bold;
+	font-family:arial;
+	box-shadow: inset 1px 1px 1px 1px black;
+	color:white;
+}
+#registrazionebox,#clanbox
+{
+	background:url(../img/bgtesto.png) no-repeat;
+	background-size:100% 100%;
+	border:3px solid black;
+	width:40%;
+	height:70%;
+	margin:auto;
+	color:white;
+	border-radius: 10% 10% 10% 10%;
+	text-shadow: 2px 2px 8px black;
+	font-size:17px;
+}
+#clantop,#cclantop
+{
+	width:100%;
+	height:30%;
+	text-align:center;
+}
+#scudo,#cscudo
+{
+	margin-left:40%;
+}
+
+#clantesto
+{
+	height:30%;
+	margin-top:20%;
+	text-align:center;
+}
+#clanbuttons
+{
+	margin-bottom:5%;
+}
+#pulsanteclan,#cpulsanteclan
+{
+	float:left;
+	margin-top:5%;
+}
+#pulsanteclan{margin-left:5%;}
+#cpulsanteclan{margin-left:30%;}
+#pulsanteregavanti
+{
+	height:7.8%;
+	list-style:none;
+	margin:auto;
+	margin-top:5%;
+	margin-right:5%;
+	float:right;
+	text-align:center;
+	padding:1%;
+}
+#pulsanteregavanti a
+{
+	color:white;
+}
+
+#cclantesto
+{
+	height:20%;
+	margin-top:7%;
+	text-align:center;
+}
+#cpulsanteclan
+{
+	margin-top:-6%;
+}
+#completareg,#indietrologin
+{
+	margin-top:1%;
+	margin-left:10%;
+	font-size:20px;
+	float:left;
+}
+#indietrologin
+{
+	margin-top:-9.2%;
+	margin-left:52%;
+}
+#indietrologin:hover
+{
+	background:url(../img/bottone2.png);
+	background-size:100% 100%;
+}
+#textboxreg1
+{
+	margin-top:0;
+	margin-left:30%;
+	font-size:100%;
+	color:white;
+	background:url(../img/bgstatistiche.jpg);
+}
+#textboxreg2
+{
+	margin-top:0;
+	margin-left:30%;
+	font-size:100%;
+	color:white;
+	background:url(../img/bgstatistiche.jpg);
+}
+.legenda
+{
+	font-size: 30px;
+	margin:auto;
+}
+#radio1
+{
+	margin-left:25%;
+}
+#radio2
+{
+	margin-left:37%;
+}
+.imgreg
+{
+	height:60%;
+	width: 25%;
+	margin-top:1%;
+	margin-left:15%;
+	border:4px solid black;
+	margin-bottom:3%;
+}
+
+.radio
+{
+	height:5%;
+	width:5%;
+	
+}
+#scudobacheca
+{
+	margin-top:2%;
+	margin-left:7%;
+	width:40%;
+	height:90%;
+	float:left;
+}
+.bracere
+{
+	float:left;
+	width:15%;
+	height:80%;
+	margin-left:7%;
+	margin-top:7%;
+	
+}
+
